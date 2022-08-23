@@ -1,3 +1,4 @@
+// allow gatsby to know to use the plugin when building the site
 module.exports = {
   siteMetadata: {
     title: `First Gatsby Site`,
@@ -14,6 +15,7 @@ module.exports = {
         path: `${__dirname}/blog`,
       },
     },
+    "gatsby-plugin-mdx",
   ],
 };
 
