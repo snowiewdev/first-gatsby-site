@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
 // import { Link } from "gatsby";
-// import React from 'react'
+// import * as React from "react";t'
 
 const IndexPage = () => {
   return (
