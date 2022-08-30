@@ -3,7 +3,7 @@ import styled from "styled-components";
 // styling of HTML element
 export const TestingDiv = styled.div`
   width: 100%;
-  background: red;
+  background: black;
   color: white;
   text-align: center;
 `;

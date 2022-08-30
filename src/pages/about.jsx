@@ -2,12 +2,18 @@
 import React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
+import { StaticImage } from "gatsby-plugin-image"
 import Testing from "../components/Testing/testing";
 
 const AboutPage = () => {
+
+  // let message:string = "Hello, world!";
+
   return (
     <Layout pageTitle="About">
       <p>This is the about page</p>
+      {/* <p>{message}</p> */}
+      <StaticImage src="../images/cat1.jpg" alt="kitty" placeholder="blurred"></StaticImage>
       <Testing />
     </Layout>
   );
